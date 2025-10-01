@@ -5,7 +5,7 @@
  *   - Write all your code inside the run() method below.
  *   - DO NOT change the main() method. It is needed to start your program.
  *
- * @author Your Name
+ * @author E. Wuzy
  */
 public class Main extends ConsoleProgram {
 
@@ -18,8 +18,11 @@ public class Main extends ConsoleProgram {
         // === START WRITING YOUR CODE BELOW THIS LINE ===
 
         // Example program: prompt user and print greeting
-        String name = readLine("Enter your name: ");
-        println("Hello, " + name + "!");
+        int avg;
+
+        avg = readInt("What's your average? ");
+
+        System.out.println("Your average is " + avg);
 
         // === END OF YOUR CODE ===
     }
