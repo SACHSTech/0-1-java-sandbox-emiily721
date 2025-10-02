@@ -39,7 +39,7 @@ public class Sketch extends PApplet {
     public void setup() {
         // === START WRITING YOUR CODE BELOW THIS LINE ===
 
-        background(200);  // Fill the background with grey
+        background(250, 230, 252);  // Fill the background with grey
 
         // === END OF YOUR CODE ===
     }
@@ -54,7 +54,10 @@ public class Sketch extends PApplet {
         // === START WRITING YOUR CODE BELOW THIS LINE ===
 
         fill(0);                 // Set fill colour to black
-        ellipse(300, 300, 200, 200);  // Draw a circle at the centre
+        ellipse(300, 300, 400, 200);  // Draw a circle at the centre
+
+        fill(0);
+        rect(0, 0, 100, 200);
 
         // === END OF YOUR CODE ===
     }
